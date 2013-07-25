@@ -1,0 +1,467 @@
+/* ------------------------- Navigational Nonsense ------------------------- */
+nav {
+    padding: 10px 0px;
+}
+
+nav .logo {
+    float: left;
+}
+
+nav .brand {
+}
+
+nav ul {    
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+nav li {
+    margin-left: 20px;
+    display: inline;
+}
+
+nav ul a:hover {
+    text-decoration: none;
+}
+
+.logo {
+  border: 0;
+  width: 200px;
+}
+
+/* --------------------------- Widgetized Footer --------------------------- */
+
+.widget h3 {
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    line-height: 1.725em;
+    border-bottom: 2px solid #999;
+    margin: 0 0 5px 0;
+    font-weight: 400;
+    text-align: right;
+}
+
+
+.widget ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.widget li {
+    text-align: right;
+}
+
+.widget li {
+    padding: 8px 0;
+    border-bottom: 1px solid #444;
+}
+
+.widget li a:hover {
+    text-decoration: none;
+}
+
+
+
+/* --------------------------------- My Shit -------------------------------- */
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    line-height: 1.25em;
+}
+
+body {
+    background-color: #DEDEDE;
+    color: #333;
+}
+
+a:link {
+    color: #E45044;
+}
+
+a:hover {
+    color: #5DBEA9;
+}
+
+a:visited {
+    color: #35889B;
+}
+
+h2 {
+  border-bottom: #565656 solid 2px;
+  font-size: 1.17em;
+  font-weight: 400;
+  letter-spacing: .05em;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 5px;
+  padding-bottom: 4px;
+}
+
+form input[type=checkbox] {
+  margin-right: 5px;
+}
+
+form input[type=text], form input[type=email] {
+    width: 100%;
+    display: block;
+    border: 1px solid #999;
+    background-color: #999;
+    color: #eee;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    /*
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    */
+}
+
+nav ul a:link, nav ul a:visited {
+    color: #E45044;
+}
+
+nav ul a:hover {
+    color: #00A7B6;
+}
+
+nav li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.115em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+a:link.fauxbutton, a:visited.fauxbutton {
+  background-color: #35889B;
+  color: #DEDEDE;
+  font-weight: 200;
+  font-size: 1.313em;
+  display: inline-block;
+  text-align: center;
+  padding: 7px;
+  margin: 10px auto;
+}
+
+a:hover.fauxbutton {
+  text-decoration: none;
+}
+
+.widget a:link, .widget a:visited {
+    color: #E45044;
+}
+
+.widget a:hover {
+    color: #5DBEA9;
+}
+
+/* Subscription Form ----------------------------------- */
+
+#mc_embed_signup .indicates-required {
+    color: #757A7C;
+    font-size: .875em;
+}
+
+#mc_embed_signup .asterisk {
+    color: #E45044;
+}
+
+#mc_embed_signup .mc-field-group {
+    margin-bottom: 8px;
+}
+/* Footer ---------------------------------------------- */
+
+footer {
+    background-color: #333;
+    color: #aaa;
+    height: 300px;
+    padding-top: 10px;
+}
+
+footer .copy {
+    font-size: .84em;
+}
+
+/* ---------------- Additional General Structural Bullshit! ---------------- */
+
+.center {
+    text-align: center;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.clear {
+    clear:both;
+}
+
+.content-wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: 300px;
+}
+
+img.social {
+    width: 50px;
+    margin: 6px 4px;
+}
+
+
+/* ------------------------- MEDIA QUERY BULLSHIT! ------------------------- */
+
+@media print {}
+
+/* Large desktop --------------------------------------- */
+@media (min-width: 1200px) {
+    nav li {
+      letter-spacing: .3em;
+    }
+
+    h2 {
+      letter-spacing: .25em;
+    }
+
+    nav .container {
+      display: table;
+    }
+
+    nav .menubar {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  
+  }
+
+/* NOTE: DEFAULT would be min 980 and max 1199 --------- */
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  nav .container {
+    display: table;
+  }
+
+  nav .menubar {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+ 
+/* Portrait tablet to landscape and desktop ------------ */
+@media (min-width: 768px) and (max-width: 979px) { 
+    .brand {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    nav ul {
+      float: none;
+    }
+
+    .menubar {
+      text-align: center;
+    }
+
+    nav .logo {
+      float: none;
+    }
+
+    nav li {
+      margin: 0px 10px;
+    }
+
+    .testcenter {
+      text-align: center;
+    }
+ }
+ 
+/* Landscape phone to portrait tablet ------------------ */
+@media (max-width: 767px) {
+
+    .brand {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    
+
+    nav .logo {
+      float: left;
+    }
+
+    img.logo {
+      width: 180px;
+    }
+    
+    nav .menubar {
+      text-align: center;
+    }   
+
+    nav li {
+      text-align: right;
+      display: list-item;
+      border: 0;
+      padding-left: 0;
+      font-size: 1.2em;
+      line-height: 1.5em;
+      letter-spacing: 2px;
+    }
+
+    nav li a:link, nav li a:visited {
+      color: #DEDEDE;
+      background-color: #E45044;
+      padding: 0 5px;
+    }
+
+    nav li a:hover {
+      background-color: #00A7B6;
+    }
+
+
+    footer .pull-left {
+      float: none;
+    }
+
+    footer .pull-right {
+      float: none;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+    }
+}
+ 
+/* Landscape phones and down --------------------------- */
+@media (max-width: 480px) {
+
+    .brand {
+      width: auto;
+      padding-bottom: 0;
+    }
+    nav .logo {
+      width: 125px;
+      float: left;
+    }
+
+    nav img.logo {
+      display: block;
+    }
+
+    nav .brand {
+      text-align: center;
+    }
+
+    nav ul {
+      float: none;
+    }
+
+    nav li {
+      text-align: right;
+      display: list-item;
+      border: 0;
+      padding-left: 0;
+      font-size: 1.131em;
+      line-height: 1.5em;
+      letter-spacing: 2px;
+    }
+
+    nav li a:link, nav li a:visited {
+      color: #DEDEDE;
+      background-color: #E45044;
+      padding: 0 5px;
+    }
+
+    nav li a:hover {
+      background-color: #00A7B6;
+    }
+
+    .content-wrap {
+      height: auto;
+      min-height: none;
+    }
+
+    footer .pull-left {
+      float: none;
+    }
+
+    footer .pull-right {
+      float: none;
+    }
+
+    footer {
+      height: auto;
+      max-height: none;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+    }
+}
+
+
+ /* ----------------------- CAROUSEL CUSTOMIZATIONS ------------------------ */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
