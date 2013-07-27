@@ -458,15 +458,18 @@ img.social {
       background-color: transparent;
       position: static;
       max-width: 550px;
-      padding: 0 20px;
+      padding: 0 60px;
       margin-top: 200px;
     }
-    .carousel-caption h1,
-    .carousel-caption .lead {
+    .carousel-caption h1, .carousel-caption .lead {
       margin: 0;
-      line-height: 1.25;
+      line-height: 1.25em;
       color: #fff;
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+
+    .carousel-caption p.lead {
+      font-weight: 300;
     }
     .carousel-caption .btn {
       margin-top: 10px;
