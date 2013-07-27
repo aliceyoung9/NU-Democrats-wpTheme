@@ -43,3 +43,9 @@ img#logo {
     padding: 0;
     max-width: 320px;
 }
+
+.sidenote {
+    font-size: .96em;
+    color: #555555;
+    margin: .75em auto;
+}

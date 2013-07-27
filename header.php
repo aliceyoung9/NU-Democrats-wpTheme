@@ -10,4 +10,3 @@
 <body>
 
   <img src="/collegedemocrats/wp-content/themes/nuDemocratsCustom/logo.png" id="logo" />
-  <h2>Northeastern University College Democrats</h2>
