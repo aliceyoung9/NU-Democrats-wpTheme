@@ -4,7 +4,7 @@ Theme Name: nuDemocrats
 Theme URI: NO URL; Custom.
 Description: Some silly experiment gone wild/live.
 Version: 1.0
-Author: Alice
+Author: Alice Young
 Author URI: http://ccs.neu.edu/home/alice
 
 */
@@ -48,4 +48,5 @@ img#logo {
     font-size: .96em;
     color: #555555;
     margin: .75em auto;
+    font-weight: 300;
 }
