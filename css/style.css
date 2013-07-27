@@ -1,6 +1,6 @@
 /* ------------------------- Navigational Nonsense ------------------------- */
 nav {
-    padding: 10px 0px;
+    padding: 10px 0px 20px 0px;
 }
 
 nav .logo {
@@ -99,7 +99,7 @@ h2 {
   text-transform: uppercase;
   text-align: right;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   padding-bottom: 4px;
 }
 
@@ -153,7 +153,7 @@ a:hover.fauxbutton {
 }
 
 .tri-schpeal p {
-  margin: 8px 0px;
+  margin: 16px 0px;
   text-align: center;
   font-weight: 200;
   font-size: 1.5em;
@@ -403,6 +403,10 @@ img.social {
     .content-wrap {
       height: auto;
       min-height: none;
+    }
+
+    h2 {
+      padding-top: 4px;
     }
 
     footer .pull-left {
