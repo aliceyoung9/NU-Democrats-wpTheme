@@ -338,6 +338,14 @@ img.social {
       background-color: #00A7B6;
     }
 
+    .content-wrap {
+      height: auto;
+      min-height: none;
+    }
+
+    footer {
+      height: auto;
+    }
 
     footer .pull-left {
       float: none;
