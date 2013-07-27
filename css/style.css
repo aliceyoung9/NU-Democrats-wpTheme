@@ -146,7 +146,6 @@ a:link.fauxbutton, a:visited.fauxbutton {
   display: inline-block;
   text-align: center;
   padding: 7px;
-  margin: 10px auto;
 }
 
 a:hover.fauxbutton {
