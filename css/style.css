@@ -98,6 +98,7 @@ h2 {
   line-height: 1.25em;
   text-transform: uppercase;
   text-align: right;
+  margin-top: 0;
   margin-bottom: 5px;
   padding-bottom: 4px;
 }
@@ -425,12 +426,7 @@ img.social {
 }
 
 
- /* ----------------------- CAROUSEL CUSTOMIZATIONS ------------------------ */
-
-    /* Carousel base class */
-    .carousel {
-      margin-bottom: 60px;
-    }
+ /* ----------------------- CAROUSEL CUSTOMIZATIONS ------------------------ */ 
 
     .carousel .container {
       position: relative;
@@ -448,7 +444,7 @@ img.social {
     }
 
     .carousel .item {
-      height: 500px;
+      height: 350px;
     }
     .carousel img {
       position: absolute;
