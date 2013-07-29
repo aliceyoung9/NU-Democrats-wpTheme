@@ -15,7 +15,16 @@
             <div class="span3">
               <h3>world</h3>
             </div>
-            <div class="span3">can you</div>
+            <div class="span3">
+              <h3>Links</h3>
+              <ul>
+                <?php wp_list_bookmarks('title_li=&categorize=0'); ?>
+              </ul>
+
+
+            </div>
+
+
             <div class="span3">
               <h3>Connect</h3>
                 <div class="center">
