@@ -11,8 +11,9 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- Le styles -->
-    <link href="bootstrap.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bootstrap.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
     
     </head>
 <body> 
@@ -20,7 +21,7 @@
     <div class="container">
 
     <div class="brand">
-    <a href="#"><img src="img/logo.png" class="logo" alt="Northeastern Democrats Logo"/></a></div>
+    <a href="#"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" class="logo" alt="Northeastern Democrats Logo"/></a></div>
 
     <div class="menubar">
       <ul>
@@ -42,7 +43,7 @@
            <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/slide-01.jpg" alt="">
+          <img src="<?php bloginfo('template_url'); ?>/img/slide-01.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Example headline.</h1>
@@ -51,7 +52,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="img/slide-02.jpg" alt="">
+          <img src="<?php bloginfo('template_url'); ?>/img/slide-02.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
@@ -60,7 +61,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="img/slide-03.jpg" alt="">
+          <img src="<?php bloginfo('template_url'); ?>/img/slide-03.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
               <h1>One more for good measure.</h1>
@@ -153,8 +154,8 @@
             <div class="span3">
               <h3>Connect</h3>
                 <div class="center">
-                <img src="img/facebook.png" class="social">
-                <img src="img/twitter.png" class="social">
+                <img src="<?php bloginfo('template_url'); ?>/img/facebook.png" class="social">
+                <img src="<?php bloginfo('template_url'); ?>/img/twitter.png" class="social">
                 </div>
             </div>
         </div>
