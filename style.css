@@ -467,6 +467,11 @@ img.social {
       background-color: transparent;
       border: 0;
       z-index: 10;
+      color: #E45044;
+    }
+
+    a:hover.carousel-caption {
+      color: #fff;
     }
 
     .carousel .item {
