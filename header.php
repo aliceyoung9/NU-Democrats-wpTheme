@@ -22,14 +22,10 @@
     <div class="brand">
     <a href="#"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" class="logo" alt="Northeastern Democrats Logo"/></a></div>
 
-    <div class="menubar">
-      <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Executive Board</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Election Resources</a></li>
-      </ul>
-    </div>
+    <!-- MENU -->
+
+    <?php wp_nav_menu( array(
+                    'container_class' => 'menubar',
+                     )); ?>
 
      <div class="clear"></div></div></nav>
