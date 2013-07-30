@@ -1,4 +1,5 @@
-          <p class="pull-left copy">&copy; 2013 NU College Democrats</p>
+    
+        <p class="pull-left copy">&copy; 2013 NU College Democrats</p>
         <p class="pull-right copy">
             Reluctantly made with Wordpress and Bootstrap.</p>
         <div class="clear"></div>

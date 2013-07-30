@@ -97,7 +97,6 @@
     </div> 
     </div>
 
-    <footer>
 
 <?php get_sidebar(); ?>
 
