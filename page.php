@@ -3,10 +3,10 @@
     <div class="container content-wrap">
     <div class="row">
     <div class="span12">
-    <h2>Error 404; Page not Found</h2>
 
-    <p>If you've discovered a dead link, please 
-      <a href="mailto:neucollegedems+webadmin@gmail.com">email the web admin.</a></p>
+    <h2><?php wp_title(); ?></h2>
+    <h1><?php wp_title(); ?>, Test.</h1>
+
     </div>
     </div> 
     </div>
