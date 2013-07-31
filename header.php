@@ -26,7 +26,7 @@
     <!-- MENU -->
 
     <?php wp_nav_menu( array(
-                    'container_class' => 'menubar',
+                    'container_class' => 'menubar'
                      )); ?>
 
      <div class="clear"></div></div></nav>
