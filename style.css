@@ -105,6 +105,13 @@ a:visited {
     color: #35889B;
 }
 
+h1 {
+  color: #072C3F;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: auto;
+}
+
 h2 {
   border-bottom: #565656 solid 2px;
   font-size: 1.17em;
@@ -116,6 +123,12 @@ h2 {
   margin-top: 0;
   margin-bottom: 0px;
   padding-bottom: 4px;
+}
+
+p.small {
+  font-weight: 300;
+  font-size: 0.813em;
+  color: #444;
 }
 
 form input[type=checkbox] {
