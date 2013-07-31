@@ -5,7 +5,7 @@
     <div class="span12">
 
     <h2><?php wp_title(); ?></h2>
-    <h1><?php wp_title(); ?>, Test.</h1>
+    <h1><?php wp_title("",true); ?></h1>
 
     <p class="small">Last updated by <?php the_modified_author(); ?> on <?php the_modified_date(); ?></p>
 
