@@ -6,12 +6,12 @@
 function arphabet_widgets_init() {
 
     register_sidebar( array(
-        'name' => 'footer widgets',
+        'name' => 'Footer Widgets',
         'id' => 'footer',
-        'before_widget' => '<div class="span4">',
+        'before_widget' => '<div class="span3">',
         'after_widget' => '</div>',
-        'before_title' => '<h2>',
-        'after_title' => '</h2>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>',
     ) );
 }
 add_action( 'widgets_init', 'arphabet_widgets_init' );
