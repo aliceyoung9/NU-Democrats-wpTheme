@@ -4,9 +4,21 @@
     <div class="row">
     <div class="span12">
 
-    <h1><?php wp_title("",true); ?></h1>
+    <?php if (have_posts()) : ?>
+    <?php while (have_posts()) : the_post(); ?>
+    <h1 id="post-<?php the_ID(); ?>"><?php the_title(); ?></h1>
 
-    <p class="small">Last updated by <?php the_modified_author(); ?> on <?php the_modified_date(); ?></p>
+    <?php the_content('Read the rest of this entry &raquo;'); ?>
+
+    <p class="small">Last updated by <?php the_modified_author(); ?> 
+        on <?php the_modified_date(); ?></p>
+    <?php endwhile; ?>
+    <?php else : ?>
+    <h1>Not Found</h1>
+    <p><?php _e("Sorry, but you are looking for something that isn't here."); ?></p>
+    <?php endif; ?>
+
+
 
 
     </div>
