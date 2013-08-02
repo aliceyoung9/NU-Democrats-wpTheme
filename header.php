@@ -21,7 +21,7 @@
     <div class="container">
 
     <div class="brand">
-    <a href="/"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" class="logo" alt="Northeastern Democrats Logo"/></a></div>
+    <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" class="logo" alt="Northeastern Democrats Logo"/></a></div>
 
     <!-- MENU -->
 
