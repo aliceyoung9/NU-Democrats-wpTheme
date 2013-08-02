@@ -198,6 +198,14 @@ a:hover.fauxbutton {
     color: #5DBEA9;
 }
 
+/* About Page - Custom Template ------------------------ */
+
+.about p {
+    font-weight: 300;
+    font-size: 1.8em;
+    line-height: 1em;
+}
+
 /* Subscription Form ----------------------------------- */
 
 #mc_embed_signup .indicates-required {

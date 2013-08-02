@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: About
+Template Name: About Page
 */
 ?>
 
@@ -13,13 +13,12 @@ Template Name: About
     <?php if (is_page( 'About Us' )) : ?>
     <?php while (have_posts()) : the_post(); ?>
     <h1 id="post-<?php the_ID(); ?>"><?php the_title(); ?></h1>
-    </div></div>
 
-    <div class="row"><div class="span8 offset2">
+    <div class="row"><div class="span10 offset1 about">
     
-    <div></div>
     <?php the_content(''); ?>
 
+    </div></div>
     <p class="small">Last updated by <?php the_modified_author(); ?> 
         on <?php the_modified_date(); ?></p>
 
