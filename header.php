@@ -9,4 +9,4 @@
 
 <body>
 
-  <img src="/collegedemocrats/wp-content/themes/nuDemocratsCustom/logo.png" id="logo" />
+  <img src="<?php bloginfo('template_url'); ?>/logo.png" id="logo" />
