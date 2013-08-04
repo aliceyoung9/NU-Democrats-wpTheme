@@ -141,6 +141,7 @@ form input[type=text], form input[type=email] {
     border: 1px solid #999;
     background-color: #999;
     color: #eee;
+    font-family: 'Open Sans', sans-serif;
     padding-top: 6px;
     padding-bottom: 6px;
 
@@ -169,7 +170,7 @@ nav li {
 a:link.fauxbutton, a:visited.fauxbutton {
   background-color: #35889B;
   color: #DEDEDE;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1.313em;
   display: inline-block;
   text-align: center;

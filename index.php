@@ -83,12 +83,13 @@
             <h2>About Us</h2>
             <p>We are a chapter of College Democrats. Surely someone can write better copy than I can.</p>
             <div class="center">
-              <a href="#" class="fauxbutton">Read More</a>
+              <a href="#" class="fauxbutton">Read More &raquo;</a>
             </div>
             
           </div>
           <div class="span4">
             <h2>Meeting Times</h2>
+            <p>We usually meet weekly in 458 Richards Hall, at 7:30PM on Thursday.</p>
           </div>
           <div class="span4">
             <h2>Events</h2>
