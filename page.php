@@ -18,16 +18,9 @@
     <p><?php _e("Sorry, but you are looking for something that isn't here."); ?></p>
     <?php endif; ?>
 
-
-
-
     </div>
     </div> 
     </div>
 
-    
-
 <?php get_sidebar(); ?>
-
-
 <?php get_footer(); ?>
