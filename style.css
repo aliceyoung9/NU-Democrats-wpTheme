@@ -204,14 +204,6 @@ blockquote.special p {
     display: block;
 }
 
-h3 .position {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.938em;
-  font-weight: 400;
-  color: #547980;
-  text-transform: uppercase;
-}
-
 .widget a:link, .widget a:visited {
     color: #E45044;
 }
@@ -226,6 +218,30 @@ h3 .position {
     font-weight: 300;
     font-size: 1.8em;
     line-height: 1.5em;
+}
+
+/* Executive Board Page - Custom Template ------------------------ */
+
+.eboard h3 {
+  margin-bottom: .5em;
+}
+
+.eboard p {
+  margin: 0;
+}
+
+.eboard h3 .position {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.813em;
+  font-weight: 400;
+  color: #547980;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.eboard strong {
+  display: inline-block;
+  width: 200px;
 }
 
 /* Subscription Form ----------------------------------- */
@@ -348,9 +364,6 @@ img.social {
       margin: 0px 10px;
     }
 
-    .testcenter {
-      text-align: center;
-    }
  }
  
 /* Landscape phone to portrait tablet ------------------ */
@@ -394,6 +407,15 @@ img.social {
 
     nav li a:hover {
       background-color: #00A7B6;
+    }
+
+    .eboard strong {
+      display: inline;
+      width: auto;
+    }
+
+    .eboard strong:after {
+      content: " ";
     }
 
     .content-wrap {
@@ -540,6 +562,7 @@ img.social {
       line-height: 1.25em;
       color: #fff;
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      text-transform: none;
     }
 
     .carousel-caption p.lead {
