@@ -204,6 +204,14 @@ blockquote.special p {
     display: block;
 }
 
+h3 .position {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.938em;
+  font-weight: 400;
+  color: #547980;
+  text-transform: uppercase;
+}
+
 .widget a:link, .widget a:visited {
     color: #E45044;
 }
