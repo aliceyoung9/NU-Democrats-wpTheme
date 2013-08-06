@@ -204,6 +204,18 @@ blockquote.special p {
     display: block;
 }
 
+blockquote > footer {
+  height: auto;
+  background-color: transparent;
+  padding: 0;
+  color: #777;
+  font-weight: 300;
+}
+
+blockquote > footer:before {
+  content: "—"
+}
+
 .widget a:link, .widget a:visited {
     color: #E45044;
 }
@@ -243,6 +255,18 @@ blockquote.special p {
   display: inline-block;
   width: 200px;
 }
+
+.eboard blockquote {
+  background-color: rgba(255,255,255,0.5);
+  font-style: italic;
+  margin: .33em auto;
+  padding: 8px;
+  width: 70%;
+}
+
+.eboard blockquote > footer {
+  font-style: normal;
+} 
 
 /* Subscription Form ----------------------------------- */
 
