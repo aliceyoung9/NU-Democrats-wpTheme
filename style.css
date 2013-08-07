@@ -125,6 +125,18 @@ h2 {
   padding-bottom: 4px;
 }
 
+h4 {
+    color: #547980;
+    margin: .3333em 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.131em;
+    border-bottom: 1px dotted #547980;
+    padding-bottom: 2px;
+    width: 33.3333%;
+}
+
 p.small {
   font-weight: 300;
   font-size: 0.813em;
@@ -391,10 +403,17 @@ img.social {
       margin: 0px 10px;
     }
 
+    h4 {
+      width: 60%;
+    }
+
  }
  
 /* Landscape phone to portrait tablet ------------------ */
 @media (max-width: 767px) {
+    h4 {
+      width:auto;
+    }
 
     .brand {
       width: 100%;
