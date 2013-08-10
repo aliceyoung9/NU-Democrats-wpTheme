@@ -19,6 +19,7 @@ Template Name: About Page
     <?php the_content(''); ?>
 
     </div></div>
+    <?php edit_post_link('Edit this Page'); ?>
     <p class="small">Last updated by <?php the_modified_author(); ?> 
         on <?php the_modified_date(); ?></p>
 
