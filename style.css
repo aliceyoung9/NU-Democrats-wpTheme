@@ -363,7 +363,10 @@ img.social {
       display: table-cell;
       vertical-align: middle;
     }
-  
+    
+    .carousel-caption {
+    max-width: 650px;
+    }
   }
 
 /* NOTE: DEFAULT would be min 980 and max 1199 --------- */
@@ -376,6 +379,10 @@ img.social {
   nav .menubar {
     display: table-cell;
     vertical-align: middle;
+  }
+
+  .carousel-caption {
+    max-width: 500px;
   }
 }
  
@@ -405,6 +412,10 @@ img.social {
 
     h4 {
       width: 60%;
+    }
+
+    .carousel-caption {
+      max-width: 356px;
     }
 
  }
@@ -605,7 +616,6 @@ img.social {
     .carousel-caption {
       background-color: transparent;
       position: static;
-      max-width: 550px;
       padding: 0 60px;
       margin-top: 200px;
     }
@@ -623,3 +633,8 @@ img.social {
     .carousel-caption .btn {
       margin-top: 10px;
     }
+
+    .hidden {
+  display: none;
+  visibility: hidden;
+}
