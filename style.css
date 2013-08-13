@@ -302,7 +302,6 @@ blockquote > footer:before {
 footer {
     background-color: #333;
     color: #aaa;
-    min-height: 300px;
     padding-top: 10px;
 }
 
