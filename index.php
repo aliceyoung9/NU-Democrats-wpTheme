@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
     <div class="container content-wrap">
 
       <div class="row">
@@ -73,8 +72,6 @@
           <!--End mc_embed_signup-->
 
         </div>
-        
-
 
       </div>
 
@@ -83,7 +80,7 @@
             <h2>About Us</h2>
             <p>We are a chapter of College Democrats. Surely someone can write better copy than I can.</p>
             <div class="center">
-              <a href="#" class="fauxbutton">Read More &raquo;</a>
+              <a href="index.php?page_id=134" class="fauxbutton">Read More &raquo;</a>
             </div>
             
           </div>
@@ -98,8 +95,5 @@
     </div> 
     </div>
 
-
 <?php get_sidebar(); ?>
-
-
 <?php get_footer(); ?>
