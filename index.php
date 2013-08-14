@@ -76,21 +76,8 @@
       </div>
 
       <div class="row tri-schpeal">
-          <div class="span4">
-            <h2>About Us</h2>
-            <p>We are a chapter of College Democrats. Surely someone can write better copy than I can.</p>
-            <div class="center">
-              <a href="index.php?page_id=134" class="fauxbutton">Read More &raquo;</a>
-            </div>
-            
-          </div>
-          <div class="span4">
-            <h2>Meeting Times</h2>
-            <p>We usually meet weekly in 458 Richards Hall, at 7:30PM on Thursday.</p>
-          </div>
-          <div class="span4">
-            <h2>Events</h2>
-          </div>
+ 
+             <?php dynamic_sidebar('frontpg'); ?> 
 
     </div> 
     </div>

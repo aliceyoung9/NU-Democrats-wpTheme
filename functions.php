@@ -14,6 +14,17 @@ function arphabet_widgets_init() {
         'before_title' => '<h3>',
         'after_title' => '</h3>',
     ) );
+
+    register_sidebar(array(
+        'name' => 'Front Page Widgets',
+        'description' => 'Do not place more than 3 widgets here. These widgets will appear on the front page only.',
+        'id' => 'frontpg',
+        'before_widget' => '<div class="span4">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>',
+      ) );
+
 }
 add_action( 'widgets_init', 'arphabet_widgets_init' );
 ?>
