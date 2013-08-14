@@ -3,7 +3,8 @@
         
         <div class="row widget">
 
-           <?php if ( dynamic_sidebar('footer') ) : else : endif; ?>
+           <?php dynamic_sidebar('footer') ?>
+
             <!--
             <div class="span3">
               <h3>world</h3>

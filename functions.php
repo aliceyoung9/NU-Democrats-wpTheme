@@ -5,8 +5,9 @@
  */
 function arphabet_widgets_init() {
 
-    register_sidebar( array(
+    register_sidebar(array(
         'name' => 'Footer Widgets',
+        'description' => 'Use three of these. These go on the bottom of every site.',
         'id' => 'footer',
         'before_widget' => '<div class="span3">',
         'after_widget' => '</div>',
