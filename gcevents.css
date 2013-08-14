@@ -1,0 +1,12 @@
+/* 
+
+<div class="gce-list-event gce-tooltip-event">[event-title]</div>
+<div>[start-date]</div>
+<div>[start-time] - [end-time]</div>
+[if-location]<div><span>Location:</span> [location]</div>[/if-location]
+[if-description]<div>[description]</div>[/if-description]
+<div>[link newwindow="true"]More details...[/link]</div>
+
+*/
+
+
