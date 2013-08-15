@@ -582,12 +582,26 @@ img.social {
 
 .gce-widget-list {
   font-size: .96em;
-  line-height: .96em;
+}
+
+.gce-widget-list h5 {
+  font-size: 1.313em;
+  margin: 0;
 }
 
 ul.gce-list {
     list-style-type: none;
     padding: 0;
+}
+
+li.gce-feed-1 {
+    background-color: rgba(255,255,255,.6);
+    padding: 10px;
+    margin-bottom: 4px;
+}
+
+li.gce-feed-1:nth-child(even) {
+    background-color: rgba(173,216,199,.6);
 }
 
 /* ------------------------ CAROUSEL CUSTOMIZATIONS ------------------------ */ 
