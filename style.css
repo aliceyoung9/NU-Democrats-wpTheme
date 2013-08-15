@@ -578,8 +578,19 @@ img.social {
     }
 }
 
+/* ------------------- EVENT WIDGET STYLE CUSTOMIZATIONS ------------------- */
 
- /* ----------------------- CAROUSEL CUSTOMIZATIONS ------------------------ */ 
+.gce-widget-list {
+  font-size: .96em;
+  line-height: .96em;
+}
+
+ul.gce-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* ------------------------ CAROUSEL CUSTOMIZATIONS ------------------------ */ 
 
     .carousel .container {
       position: relative;
