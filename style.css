@@ -151,7 +151,7 @@ form input[type=text], form input[type=email] {
     width: 100%;
     display: block;
     border: 1px solid #999;
-    background-color: #999;
+    background-color: #acacac;
     color: #eee;
     font-family: 'Open Sans', sans-serif;
     padding-top: 6px;
@@ -581,12 +581,12 @@ img.social {
 /* ------------------- EVENT WIDGET STYLE CUSTOMIZATIONS ------------------- */
 
 .gce-widget-list {
-  font-size: .96em;
+    font-size: .96em;
 }
 
 .gce-widget-list h5 {
-  font-size: 1.313em;
-  margin: 0;
+    font-size: 1.313em;
+    margin: 0;
 }
 
 ul.gce-list {
@@ -602,6 +602,10 @@ li.gce-feed-1 {
 
 li.gce-feed-1:nth-child(even) {
     background-color: rgba(173,216,199,.6);
+}
+
+.gce-widget-list span {
+    color: #555 !important;
 }
 
 /* ------------------------ CAROUSEL CUSTOMIZATIONS ------------------------ */ 
