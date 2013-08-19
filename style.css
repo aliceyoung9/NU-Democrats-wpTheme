@@ -663,8 +663,3 @@ li.gce-feed-1:nth-child(even) {
     .carousel-caption .btn {
       margin-top: 10px;
     }
-
-    .hidden {
-  display: none;
-  visibility: hidden;
-}
