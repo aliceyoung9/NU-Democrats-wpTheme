@@ -587,6 +587,7 @@ img.social {
 .gce-widget-list h5 {
     font-size: 1.313em;
     margin: 0;
+    border-bottom: #777 1px dotted;
 }
 
 ul.gce-list {
@@ -606,6 +607,7 @@ li.gce-feed-1:nth-child(even) {
 
 .gce-widget-list span {
     color: #555 !important;
+    font-weight: bold;
 }
 
 /* ------------------------ CAROUSEL CUSTOMIZATIONS ------------------------ */ 
