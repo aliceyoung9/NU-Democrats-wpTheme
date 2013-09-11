@@ -7,7 +7,7 @@
            <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item active">
-          <img src="<?php bloginfo('template_url'); ?>/img/slide-01.jpg" alt="">
+          <img src="/collegedemocrats/wp-content/uploads/2013/09/DSC_0530.jpg" alt="">
           <div class="container">
             <div class="carousel-caption hidden-phone">
               <h1>Example headline.</h1>
