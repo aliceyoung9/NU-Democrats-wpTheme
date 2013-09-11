@@ -635,19 +635,19 @@ li.gce-feed-1:nth-child(even) {
     .carousel .item {
       height: 350px;
     }
+    
     .carousel img {
       position: absolute;
       top: 0;
       left: 0;
       min-width: 100%;
-      height: 500px;
     }
 
     .carousel-caption {
-      background-color: transparent;
+      background-color: rgba(20,20,20,.5);
       position: static;
-      padding: 0 60px;
-      margin-top: 200px;
+      padding: 10px 60px;
+      margin-top: 250px;
     }
     .carousel-caption h1, .carousel-caption .lead {
       margin: 0;

@@ -10,28 +10,16 @@
           <img src="/collegedemocrats/wp-content/uploads/2013/09/DSC_0530.jpg" alt="">
           <div class="container">
             <div class="carousel-caption hidden-phone">
-              <h1>Example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>Dukakis: October 10<sup>th</sup></h1>
+              <p class="lead">Former Massachusetts Governor Michael Dukakis will be speaking to our chapter.</p>
             </div>
           </div>
         </div>
         <div class="item">
           <img src="<?php bloginfo('template_url'); ?>/img/slide-02.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption hidden-phone">
-              <h1>Another example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </div>
-          </div>
         </div>
         <div class="item">
           <img src="<?php bloginfo('template_url'); ?>/img/slide-03.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption hidden-phone">
-              <h1>One more for good measure.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </div>
-          </div>
         </div>
       </div>
       <a class="left carousel-control" href="index.php#myCarousel" data-slide="prev">‹</a>
