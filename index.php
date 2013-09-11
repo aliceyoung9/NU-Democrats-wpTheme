@@ -16,11 +16,9 @@
           </div>
         </div>
         <div class="item">
-          <img src="<?php bloginfo('template_url'); ?>/img/slide-02.jpg" alt="">
+          <img src="http://nuweb12.neu.edu/collegedemocrats/wp-content/uploads/2013/02/NEU_20130410_83.jpg" alt="">
         </div>
-        <div class="item">
-          <img src="<?php bloginfo('template_url'); ?>/img/slide-03.jpg" alt="">
-        </div>
+
       </div>
       <a class="left carousel-control" href="index.php#myCarousel" data-slide="prev">‹</a>
       <a class="right carousel-control" href="index.php#myCarousel" data-slide="next">›</a>
