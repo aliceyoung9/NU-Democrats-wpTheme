@@ -1,0 +1,36 @@
+/* --------------------------- Widgetized Footer --------------------------- */
+
+.widget {
+  a:link, a:visited {
+    color: #E45044;
+  }
+
+   a:hover {
+    color: #5DBEA9;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    line-height: 1.725em;
+    border-bottom: 2px solid #999;
+    margin: 0 0 5px 0;
+    font-weight: 400;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  li {
+    text-align: right;
+    padding: 8px 0;
+    border-bottom: 1px solid #444;
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+}
