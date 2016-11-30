@@ -1,16 +1,15 @@
 /*
 Theme Name: NU College Democrats
 Theme URI: http://ccs.neu.edu/home/alice
-Description: What happens when a libertarian builds something for Democrats.
+Description: Northeastern College Democrats site theme.
 Author: Alice Young
-Author URI: http://ccs.neu.edu/home/alice
-Version: 2.0
+Author URI: http://aliceyoung.xyz
+Version: 1.0.0
 Tags: responsive
 
-License:
+License: WTFPL
 License URI:
 
-General Comments: Fuck everything.
 */
 
 /* ------------------------- Navigational Nonsense ------------------------- */
@@ -25,7 +24,7 @@ nav .logo {
 nav .brand {
 }
 
-nav ul {    
+nav ul {
     margin:0;
     padding: 0;
     list-style-type: none;
@@ -279,7 +278,7 @@ blockquote > footer:before {
 
 .eboard blockquote > footer {
   font-style: normal;
-} 
+}
 
 /* Subscription Form ----------------------------------- */
 
@@ -360,7 +359,7 @@ img.social {
       display: table-cell;
       vertical-align: middle;
     }
-    
+
     .carousel-caption {
     max-width: 650px;
     }
@@ -382,9 +381,9 @@ img.social {
     max-width: 500px;
   }
 }
- 
+
 /* Portrait tablet to landscape and desktop ------------ */
-@media (min-width: 768px) and (max-width: 979px) { 
+@media (min-width: 768px) and (max-width: 979px) {
     .brand {
       width: 100%;
       text-align: center;
@@ -416,7 +415,7 @@ img.social {
     }
 
  }
- 
+
 /* Landscape phone to portrait tablet ------------------ */
 @media (max-width: 767px) {
     h4 {
@@ -436,10 +435,10 @@ img.social {
     img.logo {
       width: 150px;
     }
-    
+
     nav .menubar {
       text-align: center;
-    }   
+    }
 
     nav li {
       text-align: right;
@@ -503,7 +502,7 @@ img.social {
       margin: 0;
     }
 }
- 
+
 /* Landscape phones and down --------------------------- */
 @media (max-width: 480px) {
 
@@ -608,7 +607,7 @@ li.gce-feed-1:nth-child(even) {
     font-weight: bold;
 }
 
-/* ------------------------ CAROUSEL CUSTOMIZATIONS ------------------------ */ 
+/* ------------------------ CAROUSEL CUSTOMIZATIONS ------------------------ */
 
     .carousel .container {
       position: relative;
@@ -633,7 +632,7 @@ li.gce-feed-1:nth-child(even) {
     .carousel .item {
       height: 350px;
     }
-    
+
     .carousel img {
       position: absolute;
       top: 0;
