@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  line-height: 1.25em;
+}
+
+h1 {
+  color: #072C3F;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: auto;
+}
+
+h2 {
+  border-bottom: #565656 solid 2px;
+  font-size: 1.17em;
+  font-weight: 400;
+  letter-spacing: .05em;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-bottom: 4px;
+}
+
+h4 {
+    color: #547980;
+    margin: .3333em 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.131em;
+    border-bottom: 1px dotted #547980;
+    padding-bottom: 2px;
+    width: 33.3333%;
+}
+
+p.small {
+  font-weight: 300;
+  font-size: 0.813em;
+  color: #444;
+}
+
+blockquote.special {
+  background-color: rgba(255,255,255,0.5);
+  padding: 10px;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.2em;
+
+  p {
+    margin: 0;
+    display: block;
+  }
+}
+
+blockquote > footer {
+  height: auto;
+  background-color: transparent;
+  padding: 0 0 0 2em;
+  color: #777;
+  font-weight: 300;
+
+  &:before {
+    content: "— "
+  }
+}
+
+/* Large desktop --------------------------------------- */
+@media (min-width: 1200px) {
+  h2 {
+    letter-spacing: .25em;
+  }
+}
+
+/* Portrait tablet to landscape and desktop ------------ */
+@media (min-width: 768px) and (max-width: 979px) {
+  h4 {
+    width: 60%;
+  }
+}
+
+/* Landscape phone to portrait tablet ------------------ */
+@media (max-width: 767px) {
+  h4 {
+    width: auto;
+  }
+
+  blockquote > footer {
+    text-align: left;
+  }
+}
+
+/* Landscape phones and down --------------------------- */
+@media (max-width: 480px) {
+  h2 {
+    padding-top: 4px;
+  }
+}

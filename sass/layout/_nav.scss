@@ -1,0 +1,184 @@
+nav {
+  padding: 10px 0px 20px 0px;
+
+  .logo {
+    float: left;
+  }
+
+  ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+
+    a:link, a:visited {
+      color: #E45044;
+    }
+
+    a:hover {
+      color: #00A7B6;
+      text-decoration: none;
+    }
+  }
+
+  li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.115em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    margin-left: 20px;
+    display: inline;
+  }
+
+}
+
+.logo {
+  border: 0;
+  width: 200px;
+}
+
+/* Large desktop --------------------------------------- */
+@media (min-width: 1200px) {
+  nav li {
+    letter-spacing: .3em;
+  }
+
+  nav .container {
+    display: table;
+  }
+
+  nav .menubar {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+/* DEFAULT -------------------------------------------- */
+@media (min-width: 980px) and (max-width: 1199px) {
+  nav .container {
+    display: table;
+  }
+
+  nav .menubar {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+/* Portrait tablet to landscape and desktop ------------ */
+@media (min-width: 768px) and (max-width: 979px) {
+  .brand {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  nav {
+    ul {
+      float: none;
+    }
+
+    li {
+      margin: 0px 10px;
+    }
+
+    .logo {
+      float: none;
+    }
+  }
+
+  .menubar {
+    text-align: center;
+  }
+}
+
+/* Landscape phone to portrait tablet ------------------ */
+@media (max-width: 767px) {
+  .brand {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  nav {
+    .logo {
+      float: left;
+    }
+
+    .menubar {
+      text-align: center;
+    }
+
+    li {
+      text-align: right;
+      display: list-item;
+      border: 0;
+      padding-left: 0;
+      font-size: 1.2em;
+      line-height: 1.5em;
+      letter-spacing: 2px;
+
+      a:link, a:visited {
+        color: #DEDEDE;
+        background-color: #E45044;
+        padding: 0 5px;
+      }
+
+      a:hover {
+        background-color: #00A7B6;
+      }
+    }
+  }
+
+  img.logo {
+    width: 150px;
+  }
+}
+
+/* Landscape phones and down --------------------------- */
+@media (max-width: 480px) {
+  .brand {
+    width: auto;
+    padding-bottom: 0;
+  }
+
+  nav {
+    .logo {
+      width: 120px;
+      float: left;
+    }
+
+    img.logo {
+      display: block;
+    }
+
+    .brand {
+      text-align: center;
+    }
+
+    ul {
+      float: none;
+    }
+
+    li {
+      text-align: right;
+      display: list-item;
+      border: 0;
+      padding-left: 0;
+      font-size: 1.131em;
+      line-height: 1.5em;
+      letter-spacing: 2px;
+
+      a:link, a:visited {
+        color: #DEDEDE;
+        background-color: #E45044;
+        padding: 0 5px;
+      }
+
+      a:hover {
+        background-color: #00A7B6;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+a.fauxbutton {
+  &:link, &:visited {
+    background-color: #35889B;
+    color: #DEDEDE;
+    font-weight: 400;
+    font-size: 1.313em;
+    display: inline-block;
+    text-align: center;
+    padding: 7px;
+  }
+
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}

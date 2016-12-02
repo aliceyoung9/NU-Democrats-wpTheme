@@ -1,0 +1,22 @@
+{
+  "name": "nu-democrats-wp-theme",
+  "version": "1.0.0",
+  "description": "Northeastern College Democrats site theme.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliceyoung9/NU-Democrats-wpTheme.git"
+  },
+  "author": "Alice Young",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/aliceyoung9/NU-Democrats-wpTheme/issues"
+  },
+  "homepage": "https://github.com/aliceyoung9/NU-Democrats-wpTheme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

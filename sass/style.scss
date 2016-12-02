@@ -1,0 +1,39 @@
+/*
+Theme Name: NU College Democrats
+Theme URI: http://ccs.neu.edu/home/alice
+Description: Northeastern College Democrats site theme.
+Author: Alice Young
+Author URI: http://aliceyoung.xyz
+Version: 1.0.0
+Tags: responsive
+
+License: WTFPL
+License URI:
+
+*/
+
+// 3. Base
+@import
+  'base/base',
+  'base/form-input',
+  'base/helpers',
+  'base/typography';
+
+// 4. Layout-related sections
+@import
+  'layout/footer',
+  'layout/nav';
+
+// 5. Components
+@import
+  'components/carousel',
+  'components/event-widget',
+  'components/fauxbutton',
+  'components/subscription-form',
+  'components/tri-schpeal',
+  'components/widget';
+
+// 6. Page-specific styles
+@import
+  'pages/about',
+  'pages/eboard';

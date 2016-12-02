@@ -1,0 +1,51 @@
+footer {
+  background-color: #333;
+  color: #aaa;
+  padding-top: 10px;
+
+  .copy {
+    font-size: .84em;
+
+  }
+}
+
+/* Landscape phone to portrait tablet ------------------ */
+@media (max-width: 767px) {
+  footer {
+    height: auto;
+    text-align: center;
+
+    p {
+      margin: 0;
+    }
+
+    .pull-left {
+      float: none;
+    }
+
+    .pull-right {
+      float: none;
+    }
+  }
+}
+
+/* Landscape phones and down --------------------------- */
+@media (max-width: 480px) {
+  footer {
+    height: auto;
+    max-height: none;
+    text-align: center;
+
+    p {
+      margin: 0;
+    }
+
+    .pull-left {
+      float: none;
+    }
+
+    .pull-right {
+      float: none;
+    }
+  }
+}
