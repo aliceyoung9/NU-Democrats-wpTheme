@@ -1,6 +1,6 @@
 {
   "name": "nu-democrats-wp-theme",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Northeastern College Democrats site theme.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
