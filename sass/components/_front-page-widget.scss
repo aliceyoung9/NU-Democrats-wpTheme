@@ -1,0 +1,22 @@
+.front-page-widget {
+  @extend .col-sm-4;
+
+  .textwidget {
+    @extend .lead;
+
+    text-align: center;
+    margin: 16px 0px;
+    font-weight: 200;
+    line-height: 1.25em;
+    color: #555;
+  }
+
+  .button {
+    @extend .btn;
+    @extend .btn-primary;
+
+    &:after {
+      content: ' »';
+    }
+  }
+}

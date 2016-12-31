@@ -1,0 +1,12 @@
+/// MY COLORS
+$nucd-red: #E45044;
+$nucd-muted-teal: #35889B;
+$nucd-bright-teal: #5DBEA9;
+
+/// Overwrite Bootstrap Variables.
+
+$btn-primary-color:              #DEDEDE;
+$btn-primary-bg:                 $nucd-muted-teal;
+
+$link-color:            $nucd-red;
+$link-hover-color:      $nucd-bright-teal;

@@ -12,6 +12,10 @@ License URI:
 
 */
 
+// 1. Configuration and helpers
+@import
+  'abstracts/variables';
+
 // 7. Vendors
 @import
   '../vendor/bootstrap/scss/bootstrap';
@@ -32,9 +36,8 @@ License URI:
 @import
   'components/carousel',
   'components/event-widget',
-  'components/fauxbutton',
+  'components/front-page-widget',
   'components/subscription-form',
-  'components/tri-schpeal',
   'components/widget';
 
 // 6. Page-specific styles

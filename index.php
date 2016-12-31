@@ -63,7 +63,7 @@
 
       </div>
 
-      <div class="row tri-schpeal">
+      <div class="row">
         <?php dynamic_sidebar('frontpg'); ?>
       </div>
     </div>
