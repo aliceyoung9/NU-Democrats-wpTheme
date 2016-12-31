@@ -10,8 +10,8 @@
   <!-- JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="http://code.jquery.com/jquery.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -21,7 +21,6 @@
 
     ga('create', 'UA-43695159-1', 'northeastern.edu');
     ga('send', 'pageview');
-
   </script>
 
 </body>
