@@ -2,7 +2,7 @@
     <div class="container content-wrap">
 
       <div class="row">
-        <div class="span8">
+        <div class="col-sm-8">
 
            <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
@@ -26,7 +26,7 @@
 
         </div>
 
-        <div class="span4">
+        <div class="col-sm-4">
           <!-- Begin MailChimp Signup Form -->
           <div id="mc_embed_signup">
           <form action="http://facebook.us2.list-manage1.com/subscribe/post?u=f59eb78109570db88d95585ad&amp;id=184ecc677b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -62,10 +62,8 @@
       </div>
 
       <div class="row tri-schpeal">
- 
-             <?php dynamic_sidebar('frontpg'); ?> 
-
-    </div> 
+        <?php dynamic_sidebar('frontpg'); ?>
+      </div>
     </div>
 
 <?php get_sidebar(); ?>
