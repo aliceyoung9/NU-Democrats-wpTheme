@@ -16,8 +16,8 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <nav>
-    <div class="container">
+  <nav>
+    <div class="container clearfix">
 
     <div class="brand">
     <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" class="logo" alt="Northeastern Democrats Logo"/></a></div>
@@ -29,4 +29,5 @@
                     'container_class' => 'menubar'
                      )); ?>
 
-     <div class="clear"></div></div></nav>
+    </div>
+  </nav>

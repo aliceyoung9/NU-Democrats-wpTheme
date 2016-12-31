@@ -49,10 +49,11 @@
           <div class="mc-field-group input-group">
             <input type="checkbox" value="2" name="group[14549][2]" id="mce-group[14549]-14549-0"><label for="mce-group[14549]-14549-0">Forward me job listings</label>
           </div>
-            <div id="mce-responses" class="clear">
+            <div id="mce-responses">
               <div class="response" id="mce-error-response" style="display:none"></div>
               <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
           </form>
           </div>
 

@@ -1,9 +1,9 @@
-    <p class="pull-left copy">
+    <p class="float-xs-left copy">
       &copy; <?php echo date("Y"); ?> NU College Democrats
     </p>
-    <p class="pull-right copy">
-      Reluctantly made with Wordpress and Bootstrap.</p>
-    <div class="clear"></div>
+    <p class="float-xs-right copy">
+      <!-- You may replace this with something clever if you wish. -->
+    </p>
   </div>
   </footer>
 

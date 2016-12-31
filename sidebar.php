@@ -1,14 +1,9 @@
     <footer>
-    <div class="container">
-        
+    <div class="container clearfix">
+
         <div class="row widget">
 
            <?php dynamic_sidebar('footer') ?>
-
-            <!--
-            <div class="span3">
-              <h3>world</h3>
-            </div> -->
 
             <div class="span3">
               <h3>Connect</h3>
