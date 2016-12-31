@@ -3,3 +3,10 @@
   font-size: 1.8em;
   line-height: 1.5em;
 }
+
+@include media-breakpoint-down(xs) {
+  .about p {
+    font-weight: inherit;
+    font-size: inherit;
+  }
+}

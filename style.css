@@ -5326,6 +5326,11 @@ li.gce-feed-1:nth-child(even) {
   font-size: 1.8em;
   line-height: 1.5em; }
 
+@media (max-width: 575px) {
+  .about p {
+    font-weight: inherit;
+    font-size: inherit; } }
+
 .eboard h3 {
   margin-bottom: .5em; }
   .eboard h3 .position {

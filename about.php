@@ -8,39 +8,26 @@ Template Name: About Page
 
     <div class="container content-wrap">
     <div class="row">
-    <div class="span12">
+    <div class="col-xs-12">
 
-    <?php if (is_page( 'About Us' )) : ?>
-    <?php while (have_posts()) : the_post(); ?>
-    <h1 id="post-<?php the_ID(); ?>"><?php the_title(); ?></h1>
+      <?php while (have_posts()) : the_post(); ?>
 
-    <div class="row"><div class="span10 offset1 about">
-    
-    <?php the_content(''); ?>
+        <h1 id="post-<?php the_ID(); ?>"><?php the_title(); ?></h1>
 
-    </div></div>
-    <?php edit_post_link('Edit this Page'); ?>
-    <p class="small">Last updated by <?php the_modified_author(); ?> 
-        on <?php the_modified_date(); ?></p>
+        <div class="row">
+          <div class="col-md-10 offset-md-1 about">
+            <?php the_content(''); ?>
+          </div>
+        </div>
 
-    </div></div>
-    <?php endwhile; ?>
-    
-    <?php else : ?>
-    <h1>Not Found</h1>
-    <p><?php _e("Sorry, but you are looking for something that isn't here."); ?></p>
-    <?php endif; ?>
-
-
-
+        <?php edit_post_link('Edit this Page'); ?>
+        <p class="small">Last updated by <?php the_modified_author(); ?>
+            on <?php the_modified_date(); ?></p>
+      <?php endwhile; ?>
 
     </div>
-    </div> 
     </div>
-
-    
+    </div>
 
 <?php get_sidebar(); ?>
-
-
 <?php get_footer(); ?>
