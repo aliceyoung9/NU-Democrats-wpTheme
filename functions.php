@@ -9,10 +9,10 @@ function arphabet_widgets_init() {
         'name' => 'Footer Widgets',
         'description' => 'Use three of these. These go on the bottom of every site.',
         'id' => 'footer',
-        'before_widget' => '<div class="span3">',
+        'before_widget' => '<div class="col-sm-3">',
         'after_widget' => '</div>',
-        'before_title' => '<h3>',
-        'after_title' => '</h3>',
+        'before_title' => '<header>',
+        'after_title' => '</header>',
     ) );
 
     register_sidebar(array(

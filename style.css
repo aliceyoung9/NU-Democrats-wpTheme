@@ -4956,9 +4956,6 @@ body {
   background-color: #DEDEDE;
   color: #333; }
 
-a:visited {
-  color: #35889B; }
-
 form input[type=checkbox] {
   margin-right: 5px; }
 
@@ -5307,13 +5304,7 @@ li.gce-feed-1:nth-child(even) {
   margin-bottom: 8px; }
 
 /* --------------------------- Widgetized Footer --------------------------- */
-.widget a:link, .widget a:visited {
-  color: #E45044; }
-
-.widget a:hover {
-  color: #5DBEA9; }
-
-.widget h3 {
+.widget header {
   text-transform: uppercase;
   letter-spacing: .25em;
   line-height: 1.725em;
