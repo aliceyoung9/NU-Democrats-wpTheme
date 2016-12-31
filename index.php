@@ -3,26 +3,27 @@
 
       <div class="row">
         <div class="col-sm-8">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img src="http://nuweb12.neu.edu/collegedemocrats/wp-content/uploads/2013/09/DSC_0530.jpg" alt="">
+                <div class="carousel-caption hidden-phone">
+                  <h1>Dukakis: October 10<sup>th</sup></h1>
+                  <p class="lead">Former Massachusetts Governor Michael Dukakis will be speaking to our chapter.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="http://nuweb12.neu.edu/collegedemocrats/wp-content/uploads/2013/02/NEU_20130410_83.jpg" alt="">
+              </div>
 
-           <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="/collegedemocrats/wp-content/uploads/2013/09/DSC_0530.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption hidden-phone">
-              <h1>Dukakis: October 10<sup>th</sup></h1>
-              <p class="lead">Former Massachusetts Governor Michael Dukakis will be speaking to our chapter.</p>
             </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="http://nuweb12.neu.edu/collegedemocrats/wp-content/uploads/2013/02/NEU_20130410_83.jpg" alt="">
-        </div>
-
-      </div>
-      <a class="left carousel-control" href="index.php#myCarousel" data-slide="prev">‹</a>
-      <a class="right carousel-control" href="index.php#myCarousel" data-slide="next">›</a>
-    </div><!-- /.carousel -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="icon-prev" aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="icon-next" aria-hidden="true"></span>
+            </a>
+          </div><!-- /.carousel -->
 
         </div>
 

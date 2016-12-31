@@ -11,6 +11,7 @@
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="<?php bloginfo('template_url'); ?>/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/vendor/tether/dist/js/tether.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 
   <script>
