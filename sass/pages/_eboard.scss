@@ -1,12 +1,10 @@
 .eboard {
   h3 {
-    margin-bottom: .5em;
-
-  &.position {
+    &.position {
       font-family: 'Open Sans', sans-serif;
-      // font-size: 0.813em;
+      font-size: 1em;
       font-weight: 400;
-      color: #547980;
+      color: $nucd-muddy-teal;
       letter-spacing: 1px;
       text-transform: uppercase;
     }

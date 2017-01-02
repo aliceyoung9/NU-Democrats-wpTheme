@@ -4997,9 +4997,7 @@ img.social {
     min-height: none; } }
 
 body {
-  font-family: 'Roboto Slab', serif;
-  font-size: 1em;
-  line-height: 1.25em; }
+  font-family: 'Roboto Slab', serif; }
 
 h1 {
   color: #072C3F;
@@ -5284,7 +5282,7 @@ li.gce-feed-1:nth-child(even) {
   text-align: center;
   margin: 16px 0px;
   font-weight: 200;
-  line-height: 1.25em;
+  line-height: 1.5em;
   color: #555; }
 
 .front-page-widget .button:after {
@@ -5306,7 +5304,6 @@ li.gce-feed-1:nth-child(even) {
   letter-spacing: .25em;
   line-height: 1.725em;
   border-bottom: 2px solid #999;
-  margin: 0 0 5px 0;
   font-weight: 400; }
 
 .widget ul {
@@ -5331,14 +5328,13 @@ li.gce-feed-1:nth-child(even) {
     font-weight: inherit;
     font-size: inherit; } }
 
-.eboard h3 {
-  margin-bottom: .5em; }
-  .eboard h3.position {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: #547980;
-    letter-spacing: 1px;
-    text-transform: uppercase; }
+.eboard h3.position {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #547980;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
 
 .eboard p {
   margin: 0; }
