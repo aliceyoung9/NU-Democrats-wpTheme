@@ -2,14 +2,19 @@
   h3 {
     margin-bottom: .5em;
 
-    .position {
+  &.position {
       font-family: 'Open Sans', sans-serif;
-      font-size: 0.813em;
+      // font-size: 0.813em;
       font-weight: 400;
       color: #547980;
       letter-spacing: 1px;
       text-transform: uppercase;
     }
+  }
+
+  .pro-pic {
+    @extend .img-fluid;
+    @extend .img-thumbnail;
   }
 
   p {
