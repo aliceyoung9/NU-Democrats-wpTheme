@@ -22,7 +22,7 @@ Template Name: Executive Board Page
             $image = get_sub_field('pro_pic');
             $size = 'medium'; // (thumbnail, medium, large, full or custom size)
             ?>
-            <div class='row'>
+            <div class='row-padded'>
               <?php
               if ($image) {
                 echo

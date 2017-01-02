@@ -538,7 +538,7 @@ mark,
 .blockquote-reverse .blockquote-footer::after {
   content: "\00A0 \2014"; }
 
-dl.row > dd + dt {
+dl.row > dd + dt, dl.row-padded > dd + dt {
   clear: left; }
 
 .img-fluid, .carousel-inner > .carousel-item > img,
@@ -643,27 +643,27 @@ pre {
     display: table;
     clear: both; }
 
-.row {
+.row, .row-padded {
   margin-right: -15px;
   margin-left: -15px; }
-  .row::after {
+  .row::after, .row-padded::after {
     content: "";
     display: table;
     clear: both; }
   @media (min-width: 576px) {
-    .row {
+    .row, .row-padded {
       margin-right: -15px;
       margin-left: -15px; } }
   @media (min-width: 768px) {
-    .row {
+    .row, .row-padded {
       margin-right: -15px;
       margin-left: -15px; } }
   @media (min-width: 992px) {
-    .row {
+    .row, .row-padded {
       margin-right: -15px;
       margin-left: -15px; } }
   @media (min-width: 1200px) {
-    .row {
+    .row, .row-padded {
       margin-right: -15px;
       margin-left: -15px; } }
 
@@ -4975,26 +4975,14 @@ form input[type=text], form input[type=email] {
   */ }
 
 .content-wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
   margin-bottom: 100px; }
+
+.row-padded {
+  margin-bottom: 30px; }
 
 img.social {
   width: 50px;
   margin: 6px 4px; }
-
-/* Landscape phone to portrait tablet ------------------ */
-@media (max-width: 767px) {
-  .content-wrap {
-    height: auto;
-    min-height: none; } }
-
-/* Landscape phones and down --------------------------- */
-@media (max-width: 480px) {
-  .content-wrap {
-    height: auto;
-    min-height: none; } }
 
 body {
   font-family: 'Roboto Slab', serif; }

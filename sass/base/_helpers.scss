@@ -1,27 +1,14 @@
+// @HACK: Please rename to something sensible.
 .content-wrap {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.row-padded {
+  @extend .row;
+  margin-bottom: 30px;
 }
 
 img.social {
     width: 50px;
     margin: 6px 4px;
-}
-
-/* Landscape phone to portrait tablet ------------------ */
-@media (max-width: 767px) {
-  .content-wrap {
-    height: auto;
-    min-height: none;
-  }
-}
-
-/* Landscape phones and down --------------------------- */
-@media (max-width: 480px) {
-  .content-wrap {
-    height: auto;
-    min-height: none;
-  }
 }
