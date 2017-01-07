@@ -6,7 +6,7 @@ Template Name: Executive Board Page
 
 <?php get_header(); ?>
 
-  <div class="container content-wrap eboard">
+  <div class="container heavy-padded-bottom eboard">
     <div class="row">
     <div class="col-xs-12">
 
@@ -93,7 +93,7 @@ Template Name: Executive Board Page
 
     </div> <!-- div class="col-xs-12" -->
     </div> <!-- div class="row" -->
-  </div> <!-- <div class="container content-wrap eboard"-->
+  </div> <!-- <div class="container heavy-padded-bottom eboard"-->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

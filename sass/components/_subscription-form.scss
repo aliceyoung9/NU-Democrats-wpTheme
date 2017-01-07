@@ -1,14 +1,14 @@
 #mc_embed_signup{
   .indicates-required {
-    color: #757A7C;
-    font-size: .875em;
+    @extend .small;
+    color: $nucd-gray;
   }
 
   .asterisk {
-    color: #E45044;
+    color: $nucd-red;
   }
 
   .mc-field-group {
-      margin-bottom: 8px;
+    @extend .form-group;
   }
 }

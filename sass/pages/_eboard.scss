@@ -40,8 +40,7 @@
   }
 }
 
-/* Landscape phone to portrait tablet ------------------ */
-@media (max-width: 767px) {
+@include media-breakpoint-down(sm) {
   .eboard {
     blockquote {
       width: 90%;

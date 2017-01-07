@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <div class="container content-wrap">
+    <div class="container heavy-padded-bottom">
     <div class="row">
     <div class="span12">
     <h2>Error 404; Page not Found</h2>

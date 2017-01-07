@@ -1,7 +1,7 @@
 <?php get_header(); ?>
-    <div class="container content-wrap">
+    <div class="container heavy-padded-bottom">
 
-      <div class="row">
+      <div class="row-padded">
         <div class="col-sm-8">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
@@ -36,15 +36,15 @@
           <div class="mc-field-group">
             <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
           </label>
-            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
           </div>
           <div class="mc-field-group">
             <label for="mce-FNAME">First Name</label>
-            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+            <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
           </div>
           <div class="mc-field-group">
             <label for="mce-LNAME">Last Name</label>
-            <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+            <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
           </div>
           <div class="mc-field-group input-group">
             <input type="checkbox" value="2" name="group[14549][2]" id="mce-group[14549]-14549-0"><label for="mce-group[14549]-14549-0">Forward me job listings</label>
@@ -53,7 +53,7 @@
               <div class="response" id="mce-error-response" style="display:none"></div>
               <div class="response" id="mce-success-response" style="display:none"></div>
             </div>
-            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
           </form>
           </div>
 

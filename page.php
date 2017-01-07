@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <div class="container content-wrap">
+    <div class="container heavy-padded-bottom">
     <div class="row">
       <div class="col-xs-12">
 

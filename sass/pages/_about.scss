@@ -1,10 +1,10 @@
 .about p {
   font-weight: 300;
-  font-size: 1.8em;
+  font-size: 1.25em;
   line-height: 1.5em;
 }
 
-@include media-breakpoint-down(xs) {
+@include media-breakpoint-down(md) {
   .about p {
     font-weight: inherit;
     font-size: inherit;
