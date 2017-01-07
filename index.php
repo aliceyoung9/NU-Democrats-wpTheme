@@ -1,8 +1,7 @@
 <?php get_header(); ?>
-    <div class="container heavy-padded-bottom">
-
+    <div class="container-fluid heavy-padded-bottom">
       <div class="row-padded">
-        <div class="col-sm-8">
+        <div class="col-md-8">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
@@ -27,7 +26,7 @@
 
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-md-4 col-sm-10 offset-md-0 offset-sm-1">
           <!-- Begin MailChimp Signup Form -->
           <div id="mc_embed_signup">
           <form action="http://facebook.us2.list-manage1.com/subscribe/post?u=f59eb78109570db88d95585ad&amp;id=184ecc677b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
